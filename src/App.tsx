@@ -1,8 +1,7 @@
 import React from 'react'
 import { Assets } from './assets'
 import { Container, Main, Wrapper } from './components'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faTwitter, faTwitterSquare, IconDefinition } from '@fortawesome/free-brands-svg-icons'
+import {faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF'
 import SocialIcon from './components/socialIcon'
 
@@ -62,11 +61,11 @@ export default function App() {
 
 
         <footer className='flex flex-col gap-[27px] items-center mt-[120px] sm:mt-[72px]'>
-          <Wrapper className='flex gap-[10px]'>
+          <Wrapper className='flex gap-[10px] sm:gap-[12px]'>
             {socialsContent()}
           </Wrapper>
 
-          <p className='font-light text-[10px] text-[#969696]'>
+          <p className='font-light text-[10px] sm:text-[12px] text-[#969696]'>
             © Copyright Ping. All rights reserved.
           </p>
         </footer>
