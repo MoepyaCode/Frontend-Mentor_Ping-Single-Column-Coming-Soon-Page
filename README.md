@@ -1,4 +1,4 @@
-# Title
+# Ping single column coming soon page
 
 <!-- add description of project -->
 
